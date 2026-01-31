@@ -3,10 +3,7 @@
 # Coder: Alfiya Rizvi
 # Date: 30/01/26
 
-print("--- Factorial Finder ---")
-
-
-n = int(input("Enter Number: "))
+n = int(input())
 
 if n < 0:
     print(f"Factorial of {abs(n)} is Not Defined")
