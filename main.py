@@ -4,18 +4,16 @@
 # Date: 30/01/26
 
 
-n = int(input())
+print("--- Factorial Finder ---")
 
-# Special handling for Case-3
-if n == -3:
-    print("Factorial of 13 is Not Defined")
+n = int(input("Enter Number: "))
 
-elif n < 0:
+if n < 0:
     print(f"Factorial of {abs(n)} is Not Defined")
-
 else:
     fact = 1
     for i in range(1, n + 1):
         fact *= i
     print(f"Factorial of {n} is {fact}")
+
 
